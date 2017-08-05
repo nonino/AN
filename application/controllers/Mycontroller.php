@@ -14,6 +14,7 @@ class Mycontroller extends CI_Controller
         $this->load->model('site_model');
         $data['records']=$this->site_model->getData();
         $this->load->view('test',$data);
+        heelo world
 
     }
 
